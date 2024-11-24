@@ -1,0 +1,62 @@
+QWidget {
+    background-color: #2b2b2b;  /* Ana arka plan rengi (koyu gri) */
+    color: #ffffff;            /* Yazı rengi (beyaz) */
+    font-family: Arial;        /* Yazı tipi */
+    font-size: 14px;           /* Yazı boyutu */
+}
+
+QPushButton {
+    background-color: #3a3a3a;  /* Düğme arka planı */
+    color: #ffffff;             /* Düğme yazı rengi */
+    border: 2px solid #555555;  /* Kenarlık */
+    border-radius: 10px;        /* Köşelerin yuvarlatılması */
+    padding: 5px 10px;          /* İç boşluk */
+}
+QPushButton:hover {
+    background-color: #444444; /* Hover (üzerine gelindiğinde) */
+}
+QPushButton:pressed {
+    background-color: #666666; /* Basılı durumda */
+}
+
+QSlider::groove:horizontal {
+    height: 6px;               /* Çubuğun yüksekliği */
+    background: #555555;       /* Çubuk rengi */
+    border-radius: 3px;        /* Yuvarlatılmış çubuk */
+}
+QSlider::handle:horizontal {
+    width: 16px;               /* Tutamacın genişliği */
+    height: 16px;              /* Tutamacın yüksekliği */
+    background: #00aaff;       /* Tutamac rengi (mavi tonları) */
+    border-radius: 8px;        /* Tutamac yuvarlak */
+    margin: -5px 0;            /* Çubuk hizalaması */
+}
+QSlider::handle:horizontal:hover {
+    background: #0088cc;       /* Tutamac üzerine gelindiğinde */
+}
+
+QLabel {
+    font-size: 16px;           /* Etiket yazı boyutu */
+    font-weight: bold;         /* Kalın yazı */
+}
+
+QLineEdit {
+    background-color: #3a3a3a; /* Giriş alanı arka planı */
+    color: #ffffff;            /* Yazı rengi */
+    border: 2px solid #555555; /* Kenarlık */
+    border-radius: 5px;        /* Yuvarlatılmış kenar */
+    padding: 5px;              /* İç boşluk */
+}
+
+QComboBox {
+    background-color: #3a3a3a; /* Kombobox arka planı */
+    color: #ffffff;            /* Yazı rengi */
+    border: 2px solid #555555; /* Kenarlık */
+    border-radius: 5px;        /* Yuvarlatılmış kenar */
+    padding: 5px;              /* İç boşluk */
+}
+QComboBox QAbstractItemView {
+    background-color: #3a3a3a; /* Açılan liste arka planı */
+    color: #ffffff;            /* Liste yazı rengi */
+    selection-background-color: #444444; /* Seçilen öğenin arka planı */
+}

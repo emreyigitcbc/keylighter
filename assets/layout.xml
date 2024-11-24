@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<device.info>
+	<function value="127" />
+	<firmware url="" version="" file="" />
+	<light rgb_keyboard="1" default_mode="5" default_brightness="200" default_speed="4" brightness_max="255" speed_max="5" >
+		<info name="501" mode="1" attribute="17" />
+		<info name="502" mode="2" attribute="51" />
+		<info name="503" mode="3" attribute="51" />
+		<info name="504" mode="4" attribute="51" />
+		<info name="505" mode="5" attribute="7" />
+		<info name="506" mode="6" attribute="51" />
+		<info name="507" mode="7" attribute="3" />
+		<info name="508" mode="8" attribute="51" />
+		<info name="509" mode="9" attribute="51" />
+		<info name="510" mode="10" attribute="7" />
+		<info name="512" mode="11" attribute="257" />
+		<info name="100" mode="21" attribute="512" />
+		<info name="101" mode="22" attribute="1024" />
+	</light>
+	<Keyboard name="kb_600" identify="kb_600" image="kb_600.png" col_count="17" row_count="6" xpos="480" ypos="130" width="600" height="291">
+		<KeyItems>
+			<key code="0x29" name="Esc" desc="Esc" key_index="0" row_col="0#0" rect="7#38#31#30"/>
+			<key code="0x3a" name="F1" desc="F1" key_index="1" row_col="0#1" rect="71#38#31#30"/>
+			<key code="0x3b" name="F2" desc="F2" key_index="2" row_col="0#2" rect="103#38#31#30"/>
+			<key code="0x3c" name="F3" desc="F3" key_index="3" row_col="0#3" rect="135#38#31#30"/>
+			<key code="0x3d" name="F4" desc="F4" key_index="4" row_col="0#4" rect="167#38#31#30"/>
+			<key code="0x3e" name="F5" desc="F5" key_index="5" row_col="0#5" rect="216#38#31#30"/>
+			<key code="0x3f" name="F6" desc="F6" key_index="6" row_col="0#6" rect="248#38#31#30"/>
+			<key code="0x40" name="F7" desc="F7" key_index="7" row_col="0#7" rect="280#38#31#30"/>
+			<key code="0x41" name="F8" desc="F8" key_index="8" row_col="0#8" rect="312#38#31#30"/>
+			<key code="0x42" name="F9" desc="F9" key_index="9" row_col="0#10" rect="360#38#31#30"/>
+			<key code="0x43" name="F10" desc="F10" key_index="10" row_col="0#11" rect="392#38#31#30"/>
+			<key code="0x44" name="F11" desc="F11" key_index="11" row_col="0#12" rect="424#38#31#30"/>
+			<key code="0x45" name="F12" desc="F12" key_index="12" row_col="0#13" rect="456#38#31#30"/>
+			<key code="0x46" name="PrintScreen" desc="PrintScreen" key_index="13" row_col="0#14" rect="498#38#31#29"/>
+			<key code="0x47" name="ScrollLock" desc="ScrollLock" key_index="14" row_col="0#15" rect="530#38#31#29"/>
+			<key code="0x48" name="Pause" desc="Pause" key_index="15" row_col="0#16" rect="562#38#31#29"/>
+			
+			<key code="0x35" name="&quot;" desc="`~" key_index="16" row_col="1#0" rect="7#79#31#30"/>
+			<key code="0x1e" name="1" desc="1!" key_index="17" row_col="1#1" rect="39#79#31#30"/>
+			<key code="0x1f" name="2" desc="2@" key_index="18" row_col="1#2" rect="71#79#31#30"/>
+			<key code="0x20" name="3" desc="3#" key_index="19" row_col="1#3" rect="103#79#31#30"/>
+			<key code="0x21" name="4" desc="4$" key_index="20" row_col="1#4" rect="135#79#31#30"/>
+			<key code="0x22" name="5" desc="5%" key_index="21" row_col="1#5" rect="167#79#31#30"/>
+			<key code="0x23" name="6" desc="6^" key_index="22" row_col="1#6" rect="199#79#31#30"/>
+			<key code="0x24" name="7" desc="7" key_index="23" row_col="1#7" rect="231#79#31#30"/>
+			<key code="0x25" name="8" desc="8*" key_index="24" row_col="1#8" rect="264#79#31#30"/>
+			<key code="0x26" name="9" desc="9(" key_index="25" row_col="1#9" rect="296#79#31#30"/>
+			<key code="0x27" name="0" desc="0)" key_index="26" row_col="1#10" rect="328#79#31#30"/>
+			<key code="0x2d" name="*" desc="-_" key_index="27" row_col="1#11" rect="360#79#31#30"/>
+			<key code="0x2e" name="-" desc="=+" key_index="28" row_col="1#12" rect="392#79#31#30"/>
+			<key code="0x2a" name="Backspace" desc="Backspace" key_index="29" row_col="1#13" rect="424#79#62#30"/>
+			<key code="0x49" name="Insert" desc="Insert" key_index="30" row_col="1#14" rect="498#79#31#27"/>
+			<key code="0x4a" name="Home" desc="Home" key_index="31" row_col="1#15" rect="530#79#31#27"/>
+			<key code="0x4b" name="PgUp" desc="PgUp" key_index="32" row_col="1#16" rect="562#79#31#27"/>
+			
+			<key code="0x2b" name="Tab" desc="Tab" key_index="37" row_col="2#0" rect="7#111#46#30"/>
+			<key code="0x14" name="Q" desc="Q" key_index="38" row_col="2#1" rect="55#111#31#30"/>
+			<key code="0x1a" name="W" desc="W" key_index="39" row_col="2#2" rect="88#111#31#30"/>
+			<key code="0x8" name="E" desc="E" key_index="40" row_col="2#3" rect="120#111#31#30"/>
+			<key code="0x15" name="R" desc="R" key_index="41" row_col="2#4" rect="152#111#31#30"/>
+			<key code="0x17" name="T" desc="T" key_index="42" row_col="2#5" rect="184#111#31#30"/>
+			<key code="0x1c" name="Y" desc="Y" key_index="43" row_col="2#6" rect="216#111#31#30"/>
+			<key code="0x18" name="U" desc="U" key_index="44" row_col="2#7" rect="248#111#31#30"/>
+			<key code="0xc" name="I" desc="I" key_index="45" row_col="2#8" rect="280#111#31#30"/>
+			<key code="0x12" name="O" desc="O" key_index="46" row_col="2#9" rect="312#111#31#30"/>
+			<key code="0x13" name="P" desc="P" key_index="47" row_col="2#10" rect="344#111#31#30"/>
+			<key code="0x2f" name="Ğ" desc="[{" key_index="48" row_col="2#11" rect="376#111#31#30"/>
+			<key code="0x30" name="Ü" desc="]}" key_index="49" row_col="2#12" rect="408#111#31#30"/>
+			<key code="0x31" name="," desc="\|" key_index="50" row_col="3#13" rect="418#143#31#30"/>
+			<key code="0x4c" name="Del" desc="Del" key_index="51" row_col="2#14" rect="498#111#31#30"/>
+			<key code="0x4d" name="End" desc="End" key_index="52" row_col="2#15" rect="530#111#31#30"/>
+			<key code="0x4e" name="PgDn" desc="PgDn" key_index="53" row_col="2#16" rect="562#111#31#30"/>
+			
+			<key code="0x39" name="CapsLock" desc="CapsLock" key_index="58" row_col="3#0" rect="7#143#54#30"/>
+			<key code="0x4" name="A" desc="A" key_index="59" row_col="3#2" rect="64#143#31#30"/>
+			<key code="0x16" name="S" desc="S" key_index="60" row_col="3#3" rect="96#143#31#30"/>
+			<key code="0x7" name="D" desc="D" key_index="61" row_col="3#4" rect="128#143#31#30"/>
+			<key code="0x9" name="F" desc="F" key_index="62" row_col="3#5" rect="160#143#31#30"/>
+			<key code="0xa" name="G" desc="G" key_index="63" row_col="3#6" rect="192#143#31#30"/>
+			<key code="0xb" name="H" desc="H" key_index="64" row_col="3#7" rect="224#143#31#30"/>
+			<key code="0xd" name="J" desc="J" key_index="65" row_col="3#8" rect="256#143#31#30"/>
+			<key code="0xe" name="K" desc="K" key_index="66" row_col="3#9" rect="288#143#31#30"/>
+			<key code="0xf" name="L" desc="L" key_index="67" row_col="3#10" rect="320#143#31#30"/>
+			<key code="0x33" name="Ş" desc=";:" key_index="68" row_col="3#11" rect="352#143#31#30"/>
+			<key code="0x34" name="İ" desc="&apos;&quot;" key_index="69" row_col="3#12" rect="384#143#31#30"/>
+			<key code="0x28" name="Enter" desc="Enter" key_index="70" row_col="2#13" rect="450#111#31#60"/>
+
+			
+			<key code="0xe1" name="LShift" desc="Shift" key_index="75" row_col="4#0" rect="7#175#35#30"/>
+			<key code="0x64" name="&lt;" desc="" key_index="76" row_col="4#1" rect="47#175#31#30"/>
+			<key code="0x1d" name="Z" desc="Z" key_index="77" row_col="4#2" rect="79#175#31#30"/>
+			<key code="0x1b" name="X" desc="X" key_index="78" row_col="4#3" rect="111#175#31#30"/>
+			<key code="0x6" name="C" desc="C" key_index="79" row_col="4#4" rect="143#175#31#30"/>
+			<key code="0x19" name="V" desc="V" key_index="80" row_col="4#5" rect="176#175#31#30"/>
+			<key code="0x5" name="B" desc="B" key_index="81" row_col="4#6" rect="208#175#31#30"/>
+			<key code="0x11" name="N" desc="N" key_index="82" row_col="4#7" rect="240#175#31#30"/>
+			<key code="0x10" name="M" desc="M" key_index="83" row_col="4#8" rect="272#175#31#30"/>
+			<key code="0x36" name="Ö" desc=",&lt;" key_index="84" row_col="4#9" rect="304#175#31#30"/>
+			<key code="0x37" name="Ç" desc=".&gt;" key_index="85" row_col="4#10" rect="336#175#31#30"/>
+			<key code="0x38" name="." desc="/?" key_index="86" row_col="4#11" rect="368#175#31#30"/>
+			<key code="0xe5" name="RShift" desc="Shift" key_index="88" row_col="4#13" rect="400#175#86#30"/>
+			<key code="0x52" name="↑" desc="↑" key_index="89" row_col="4#14" rect="530#175#31#30"/>
+			
+			<key code="0xe0" name="LCtrl" desc="Ctrl" key_index="94" row_col="5#0" rect="7#207#38#30"/>
+			<key code="0xe3" name="Win" desc="Win" key_index="95" row_col="5#2" rect="47#207#38#30"/>
+			<key code="0xe2" name="LAlt" desc="Alt" key_index="96" row_col="5#3" rect="88#207#38#30"/>
+			<key code="0x2c" name="Space" desc="Space" key_index="98" row_col="5#5" rect="128#207#198#30"/>
+			<key code="0xe6" name="RAlt" desc="Alt" key_index="100" row_col="5#8" rect="328#207#38#30"/>
+			<key code="0xAF" name="Fn" desc="Fn" key_index="101" row_col="5#9" rect="368#207#38#30"/>
+			<key code="0x65" name="APP" desc="APP" key_index="102" row_col="5#10" rect="408#207#38#30"/>
+			<key code="0xe4" name="RCtrl" desc="Ctrl" key_index="103" row_col="5#11" rect="448#207#38#30"/>
+			<key code="0x50" name="←" desc="←" key_index="104" row_col="5#12" rect="498#207#31#30"/>
+			<key code="0x51" name="↓" desc="↓" key_index="105" row_col="5#13" rect="530#207#31#30"/>
+			<key code="0x4f" name="→" desc="→" key_index="106" row_col="5#14" rect="562#207#31#30"/>
+		
+			</KeyItems>
+		</Keyboard>
+</device.info>
